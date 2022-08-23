@@ -1,0 +1,7 @@
+image: kamleshbobde/strapi-test10:1.0.0
+dbms: postgresql
+ingressPath: "/entando-template-node-api"
+healthCheckPath: "/admin/project-type"
+roles:
+  - "et-first-role"
+  - "et-second-role"
